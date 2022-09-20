@@ -18,11 +18,11 @@ python start_here.py --activity "punch - side" --video "test.mp4"
 
 There is a file ```keypoints_from_video.py``` which can be used to create a new lookup table. In order to extract and record keypoints from ```test.mp4```, run:
 ```
-python keypoints_from_video.py --activity "punch - side" --video "test.mp4" --lookup "lookup_new.pickle"/[YOUR_LOOKUP_NAME]
+python keypoints_from_video.py --activity "punch - side" --video "test.mp4" --lookup "lookup_new.pickle"
 ```
 Then, in order to use this new lookup, run:
 ```
-python start_here.py --activity "punch - side" --video "test.mp4" --lookup "lookup_new.pickle"/[YOUR_LOOKUP_NAME]
+python start_here.py --activity "punch - side" --video "test.mp4" --lookup "lookup_new.pickle"
 ```
 ### Acknowledgements
 The Posenet model used in this repo was implemented  here : https://github.com/rwightman/posenet-python
